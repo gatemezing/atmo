@@ -20,4 +20,21 @@
 	dct:creator [foaf:mbox "atemezin@eurecom.fr"; foaf:name "Ghislain Atemezing"];
     dct:license <http://www.opendatacommons.org/licenses/pddl/1.0/> .
 
-    
+ #---Classes here -------
+
+atmo:Ritual a rdfs:Class,
+		owl:Class;
+	rdfs:label "Tradition Treatment"@en;
+	rdfs:label "traitment traditionnel"@fr;
+	.
+
+atmo:Ritual a rdfs:Class,
+		owl:Class;
+	rdfs:comment "A ritual is a set of actions, often thought to have symbolic value, the performance of which is usually prescribed by a religion or by the traditions of a community by religious or political laws because of the perceived efficacy of those actions"@en;
+	rdfs:isDefinedBy <http://purl.org/ontology/atmo>;
+	rdfs:label "ritual"@en;
+	rdfs:label "rituel"@fr;
+	rdfs:subClassOf atmo:TraditionalTreatment;
+	.
+
+ 
