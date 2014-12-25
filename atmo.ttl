@@ -22,10 +22,10 @@
 
  #---Classes here -------
 
-atmo:Ritual a rdfs:Class,
+atmo:Treatment a rdfs:Class,
 		owl:Class;
 	rdfs:label "Tradition Treatment"@en;
-	rdfs:label "traitment traditionnel"@fr;
+	rdfs:label "traitement traditionnel"@fr;
 	.
 
 atmo:Ritual a rdfs:Class,
@@ -34,7 +34,7 @@ atmo:Ritual a rdfs:Class,
 	rdfs:isDefinedBy <http://purl.org/ontology/atmo>;
 	rdfs:label "ritual"@en;
 	rdfs:label "rituel"@fr;
-	rdfs:subClassOf atmo:TraditionalTreatment;
+	rdfs:subClassOf atmo:Treatment;
 	.
 
  
