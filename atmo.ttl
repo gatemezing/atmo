@@ -37,4 +37,34 @@ atmo:Ritual a rdfs:Class,
 	rdfs:subClassOf atmo:Treatment;
 	.
 
+atmo:Interventor a rdfs:Class,
+		owl:Class;
+
+	rdfs:label "Interventor"@en;
+	rdfs:comment "An actor in a traditional african medicine"@en;
+	rdfs:seeAlso <http://en.wikipedia.org/wiki/Soothsayer>;
+	rdfs:subClassOf foaf:Person;
+	.
+
+atmo:Believe a rdfs:Class,
+		owl:Class;
+	rdfs:label "believes"@en;
+	rdfs:label "croyances"@fr;
+	rdfs:comment "All the traditional believes of a given traditional group"@en;
+	.
+
+
+
+
+
+
+
+# Object properties here ----
+
+
+
+
+# Axioms here ----
+
+
  
