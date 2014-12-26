@@ -40,7 +40,7 @@ atmo:Ritual a rdfs:Class, owl:Class;
 	rdfs:isDefinedBy <http://purl.org/ontology/atmo>;
 	rdfs:label "ritual"@en;
 	rdfs:label "rituel"@fr;
-	rdfs:subClassOf atmo:TraditionalTreatment;
+	dcterms:isPartOf atmo:TraditionalTreatment;
 	.
 
 atmo:DiagnosisRitual a rdfs:Class, owl:Class;
@@ -117,11 +117,17 @@ atmo:MedicinalPlant a rdfs:Class, owl:Class;
 
 # Object properties here ----
 
+atmo:curewith a rdfs:Property, owl:ObjectProperty;
+	rdfs:label "cure with"@en;
+	rdfs:domain atmo:Healer;
+	rdfs:range atmo:MedicinalPlant;
+	.
 
 
 
 # Axioms here ----
 
 atmo:Ritual owl:disjointWith atmo:Believe.
+atmo:Healer owl:disjointWith atmo:Witch.
 atmo:PreventiveRitual owl:disjointWith atmo:DiagnosisRitual.
  
