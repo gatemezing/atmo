@@ -27,6 +27,14 @@ atmo:TraditionalTreatment a rdfs:Class, owl:Class;
 	rdfs:label "traitement traditionnel"@fr;
 	.
 
+atmo:Potion a rdfs:Class, owl:Class;
+	rdfs:subClassOf atmo:TraditionalTreatment;
+	rdfs:label "Potion"@en;
+	rdfs:label "Potion"@fr;
+	rdfs:comment "Potion is a consumable medicine or poison, usually possessing magical properties."@en;
+	.
+
+
 atmo:Ritual a rdfs:Class, owl:Class;
 	rdfs:comment "A ritual is a set of actions, often thought to have symbolic value, the performance of which is usually prescribed by a religion or by the traditions of a community by religious or political laws because of the perceived efficacy of those actions"@en;
 	rdfs:isDefinedBy <http://purl.org/ontology/atmo>;
