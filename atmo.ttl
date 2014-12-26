@@ -22,38 +22,86 @@
 
  #---Classes here -------
 
-atmo:Treatment a rdfs:Class,
-		owl:Class;
+atmo:TraditionalTreatment a rdfs:Class, owl:Class;
 	rdfs:label "Tradition Treatment"@en;
 	rdfs:label "traitement traditionnel"@fr;
 	.
 
-atmo:Ritual a rdfs:Class,
-		owl:Class;
+atmo:Ritual a rdfs:Class, owl:Class;
 	rdfs:comment "A ritual is a set of actions, often thought to have symbolic value, the performance of which is usually prescribed by a religion or by the traditions of a community by religious or political laws because of the perceived efficacy of those actions"@en;
 	rdfs:isDefinedBy <http://purl.org/ontology/atmo>;
 	rdfs:label "ritual"@en;
 	rdfs:label "rituel"@fr;
-	rdfs:subClassOf atmo:Treatment;
+	rdfs:subClassOf atmo:TraditionalTreatment;
 	.
 
-atmo:Interventor a rdfs:Class,
-		owl:Class;
+atmo:DiagnosisRitual a rdfs:Class, owl:Class;
+	rdfs:subClassOf atmo:Ritual;
+	rdfs:label "Diagnosis ritual"@en;
+	rdfs:label "rituel pour diagnostic"@fr;
+	.
 
+atmo:PreventiveRitual a rdfs:Class, owl:Class;
+	rdfs:subClassOf atmo:Ritual;
+	rdfs:label "preventive ritual"@en;
+	rdfs:label "rituel preventif"@fr;
+	.
+
+atmo:RecoveryRitual a rdfs:Class, owl:Class;
+	rdfs:subClassOf atmo:Ritual;
+	rdfs:label "recovery ritual"@en;
+	rdfs:label "rituel de recuperation"@fr;
+	.
+
+
+atmo:TraditionalInterventor a rdfs:Class, owl:Class;		
 	rdfs:label "Interventor"@en;
+	rdfs:label "acteur traditionnel"@fr;
 	rdfs:comment "An actor in a traditional african medicine"@en;
-	rdfs:seeAlso <http://en.wikipedia.org/wiki/Soothsayer>;
 	rdfs:subClassOf foaf:Person;
 	.
 
-atmo:Believe a rdfs:Class,
-		owl:Class;
+atmo:Witch a rdfs:Class, owl:Class;		
+	rdfs:label "Witch"@en;
+	rdfs:label "sorcier"@fr;
+	rdfs:comment "A person who practise witchcraft"@en;
+	rdfs:subClassOf atmo:TraditionalInterventor;
+	.
+
+atmo:Fetishist a rdfs:Class, owl:Class;		
+	rdfs:label "Fetishist"@en;
+	rdfs:label "Fetichiste"@fr;
+	rdfs:comment "A person who treats by fetishism"@en;
+	rdfs:subClassOf atmo:TraditionalInterventor;
+	.
+
+atmo:Healer a rdfs:Class, owl:Class;		
+	rdfs:label "Healer"@en;
+	rdfs:label "Marabout"@fr;
+	rdfs:comment "A healer is someone who intends to aid recovery from ill health"@en;
+	rdfs:subClassOf atmo:TraditionalInterventor;
+	.
+
+
+atmo:Soothsayer a rdfs:Class, owl:Class;		
+	rdfs:label "soothsayer"@en;
+	rdfs:label "clairvoyant"@fr;
+	rdfs:comment "A soothsayer is a person who claims to speak sooth: specifically one who predicts the future based upon personal, political, spiritual, or religious beliefs rather than scientific facts"@en;
+	rdfs:subClassOf atmo:TraditionalInterventor;
+	.
+
+
+atmo:TraditionalBelieve a rdfs:Class, owl:Class;		
 	rdfs:label "believes"@en;
 	rdfs:label "croyances"@fr;
 	rdfs:comment "All the traditional believes of a given traditional group"@en;
 	.
 
-
+atmo:MedicinalPlant a rdfs:Class, owl:Class;		
+	rdfs:label "medicinal plant"@en;
+	rdfs:label "plante médicinale"@fr;
+	rdfs:comment "A plant with a special function in traditional medicine"@en;
+	.
 
 
 
@@ -66,5 +114,6 @@ atmo:Believe a rdfs:Class,
 
 # Axioms here ----
 
-
+atmo:Ritual owl:disjointWith atmo:Believe.
+atmo:PreventiveRitual owl:disjointWith atmo:DiagnosisRitual.
  
