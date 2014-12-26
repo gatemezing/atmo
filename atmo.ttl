@@ -40,7 +40,7 @@ atmo:Ritual a rdfs:Class, owl:Class;
 	rdfs:isDefinedBy <http://purl.org/ontology/atmo>;
 	rdfs:label "ritual"@en;
 	rdfs:label "rituel"@fr;
-	dcterms:isPartOf atmo:TraditionalTreatment;
+	dct:isPartOf atmo:TraditionalTreatment;
 	.
 
 atmo:DiagnosisRitual a rdfs:Class, owl:Class;
