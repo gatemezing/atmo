@@ -117,7 +117,7 @@ atmo:MedicinalPlant a rdfs:Class, owl:Class;
 
 # Object properties here ----
 
-atmo:curewith a rdfs:Property, owl:ObjectProperty;
+atmo:curewith a rdf:Property, owl:ObjectProperty;
 	rdfs:label "cure with"@en;
 	rdfs:domain atmo:Healer;
 	rdfs:range atmo:MedicinalPlant;
