@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:atmo="http://purl.org/ontology/atmo#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:org="http://www.w3.org/ns/org#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:mbox>atemezin@eurecom.fr</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:name>Ghislain Atemezing</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo">
+    <rdfs:comment xml:lang="en">ATMO is an RDF vocabulary for the Traditional african medicine which refers to health practices, approaches, knowledge and beliefs incorporating plant, animal and mineral based medicines, spiritual therapies, manual techniques and exercises, applied singularly or in combination to treat, diagnose and prevent illnesses or maintain well-being.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-04-16</dct:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-05-04</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-12-30</dct:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo">
+    <dct:title xml:lang="en">Vocabulary for African Traditional Medicine</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo">
+    <dct:creator rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo">
+    <dct:license rdf:resource="http://www.opendatacommons.org/licenses/pddl/1.0/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalTreatment">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalTreatment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalTreatment">
+    <rdfs:label xml:lang="en">Tradition Treatment</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalTreatment">
+    <rdfs:label xml:lang="fr">traitement traditionnel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Potion">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Potion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Potion">
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/atmo#TraditionalTreatment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Potion">
+    <rdfs:label xml:lang="en">Potion</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Potion">
+    <rdfs:label xml:lang="fr">Potion</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Potion">
+    <rdfs:comment xml:lang="en">Potion is a consumable medicine or poison, usually possessing magical properties.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Ritual">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Ritual">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Ritual">
+    <rdfs:comment xml:lang="en">A ritual is a set of actions, often thought to have symbolic value, the performance of which is usually prescribed by a religion or by the traditions of a community by religious or political laws because of the perceived efficacy of those actions</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Ritual">
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ontology/atmo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Ritual">
+    <rdfs:label xml:lang="en">ritual</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Ritual">
+    <rdfs:label xml:lang="fr">rituel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Ritual">
+    <dct:isPartOf rdf:resource="http://purl.org/ontology/atmo#TraditionalTreatment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#DiagnosisRitual">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#DiagnosisRitual">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#DiagnosisRitual">
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/atmo#Ritual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#DiagnosisRitual">
+    <rdfs:label xml:lang="en">Diagnosis ritual</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#DiagnosisRitual">
+    <rdfs:label xml:lang="fr">rituel pour diagnostic</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#PreventiveRitual">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#PreventiveRitual">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#PreventiveRitual">
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/atmo#Ritual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#PreventiveRitual">
+    <rdfs:label xml:lang="en">preventive ritual</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#PreventiveRitual">
+    <rdfs:label xml:lang="fr">rituel preventif</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#RecoveryRitual">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#RecoveryRitual">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#RecoveryRitual">
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/atmo#Ritual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#RecoveryRitual">
+    <rdfs:label xml:lang="en">recovery ritual</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#RecoveryRitual">
+    <rdfs:label xml:lang="fr">rituel de recuperation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalInterventor">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalInterventor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalInterventor">
+    <rdfs:label xml:lang="en">Interventor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalInterventor">
+    <rdfs:label xml:lang="fr">acteur traditionnel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalInterventor">
+    <rdfs:comment xml:lang="en">An actor in a traditional african medicine</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalInterventor">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Witch">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Witch">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Witch">
+    <rdfs:label xml:lang="en">Witch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Witch">
+    <rdfs:label xml:lang="fr">sorcier</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Witch">
+    <rdfs:comment xml:lang="en">A person who practise witchcraft</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Witch">
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/atmo#TraditionalInterventor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Fetishist">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Fetishist">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Fetishist">
+    <rdfs:label xml:lang="en">Fetishist</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Fetishist">
+    <rdfs:label xml:lang="fr">Fetichiste</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Fetishist">
+    <rdfs:comment xml:lang="en">A person who treats by fetishism</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Fetishist">
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/atmo#TraditionalInterventor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Healer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Healer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Healer">
+    <rdfs:label xml:lang="en">Healer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Healer">
+    <rdfs:label xml:lang="fr">Marabout</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Healer">
+    <rdfs:comment xml:lang="en">A healer is someone who intends to aid recovery from ill health</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Healer">
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/atmo#TraditionalInterventor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Soothsayer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Soothsayer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Soothsayer">
+    <rdfs:label xml:lang="en">soothsayer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Soothsayer">
+    <rdfs:label xml:lang="fr">clairvoyant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Soothsayer">
+    <rdfs:comment xml:lang="en">A soothsayer is a person who claims to speak sooth: specifically one who predicts the future based upon personal, political, spiritual, or religious beliefs rather than scientific facts</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Soothsayer">
+    <rdfs:subClassOf rdf:resource="http://purl.org/ontology/atmo#TraditionalInterventor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalBelieve">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalBelieve">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalBelieve">
+    <rdfs:label xml:lang="en">believes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalBelieve">
+    <rdfs:label xml:lang="fr">croyances</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#TraditionalBelieve">
+    <rdfs:comment xml:lang="en">All the traditional believes of a given traditional group</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#MedicinalPlant">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#MedicinalPlant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#MedicinalPlant">
+    <rdfs:label xml:lang="en">medicinal plant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#MedicinalPlant">
+    <rdfs:label xml:lang="fr">plante médicinale</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#MedicinalPlant">
+    <rdfs:comment xml:lang="en">A plant with a special function in traditional medicine</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#curewith">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#curewith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#curewith">
+    <rdfs:label xml:lang="en">cure with</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#curewith">
+    <rdfs:domain rdf:resource="http://purl.org/ontology/atmo#Healer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#curewith">
+    <rdfs:range rdf:resource="http://purl.org/ontology/atmo#MedicinalPlant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Ritual">
+    <owl:disjointWith rdf:resource="http://purl.org/ontology/atmo#Believe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#Healer">
+    <owl:disjointWith rdf:resource="http://purl.org/ontology/atmo#Witch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/atmo#PreventiveRitual">
+    <owl:disjointWith rdf:resource="http://purl.org/ontology/atmo#DiagnosisRitual"/>
+  </rdf:Description>
+</rdf:RDF>
